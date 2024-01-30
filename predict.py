@@ -8,7 +8,9 @@ Created on Fri Mar 20 18:45:05 2020
 
 import numpy as np
 from keras.models import load_model
-from keras.preprocessing import image
+#from keras.preprocessing import image
+import keras.utils as image
+from tensorflow.keras.utils import load_img
 
 class dogcat:
     def __init__(self,filename):
